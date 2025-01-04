@@ -1,5 +1,4 @@
 fastapi[all]
-fastapi
 pydantic
 groq
 dotenv
