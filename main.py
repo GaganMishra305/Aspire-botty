@@ -2,10 +2,10 @@ from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
 from groq import Groq
-from dotenv import load_dotenv
+# from dotenv import load_dotenv
 
-# Load environment variables
-load_dotenv('.env')
+# # Load environment variables
+# load_dotenv('.env')
 
 app = FastAPI(title="Hackofiesta 6.0 Chatbot API")
 
